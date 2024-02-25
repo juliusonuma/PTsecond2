@@ -132,3 +132,15 @@ result = result + word;
 
 
 return result;
+/////////////////////////////////////////
+    System.out.println("Multiplication Table of " + num + ":");
+/****** DO NOT CHANGE THE CODE ABOVE THIS LINE ******/
+
+        // WRITE YOUR CODE HERE 
+        
+       
+         int i = num;
+          
+        for (i=1; i<=10; i++)
+       
+        {System.out.printf("%d * %d = %d \n", num, i, num * i);
